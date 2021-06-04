@@ -1,2 +1,2 @@
-# metric_prefix
+# premet
 A library for formatting numbers according to the metric system
