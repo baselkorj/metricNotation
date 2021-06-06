@@ -33,31 +33,6 @@ def mili(x):
     x = str(temp) + "m"
     return x
 
-
-def centi(x):
-    temp = x * 100
-    x = str(temp) + "c"
-    return x
-
-
-def deci(x):
-    temp = x * 10
-    x = str(temp) + "d"
-    return x
-
-
-def deka(x):
-    temp = x / 10
-    x = str(temp) + "da"
-    return x
-
-
-def hecto(x):
-    temp = x / 100
-    x = str(temp) + "h"
-    return x
-
-
 def kilo(x):
     temp = x / 1000
     x = str(temp) + "k"
