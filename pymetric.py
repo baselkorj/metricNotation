@@ -87,7 +87,7 @@ def yotta(x):
     return x
 
 
-def auto(x, y):
+def auto(x, y=0):
     x = float(x)
     if x > 1000:
         div_num(x, y)
