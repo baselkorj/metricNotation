@@ -1,6 +1,7 @@
 i = 0
-hi = ['', 'k', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y']
-low = ['', 'm', 'μ', 'p', 'f', 'a']
+hi = ["", "k", "M", "G", "T", "P", "E", "Z", "Y"]
+low = ["", "m", "μ", "p", "f", "a"]
+
 
 def atto(x):
     temp = x * 1000000000000000000
@@ -85,6 +86,7 @@ def yotta(x):
     x = str(temp) + "Y"
     return x
 
+
 def auto(x, y):
     x = float(x)
     if x > 1000:
@@ -92,12 +94,13 @@ def auto(x, y):
     else:
         mul_num(x, y)
 
+
 def div_num(x, y):
     i = 0
     while x > 1000:
         x = x / 1000
         i = i + 1
-    
+
     if y == 0:
         temp = str(x) + hi[i]
     else:
@@ -106,12 +109,13 @@ def div_num(x, y):
     print(temp)
     return temp
 
+
 def mul_num(x, y):
     i = 0
     while x < 1:
         x = x * 1000
         i = i + 1
-    
+
     if y == 0:
         temp = str(x) + low[i]
     else:
@@ -120,8 +124,10 @@ def mul_num(x, y):
     print(temp)
     return temp
 
-def help():
-    print("This is a help function.")
 
-def lisence():
-    print("This is the lisence.")
+def help():  # this is not needed
+    print("This is a help function.")  # this is not needed
+
+
+def lisence():  # this is not needed
+    print("This is the lisence.")  # this is not needed
