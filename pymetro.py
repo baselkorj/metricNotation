@@ -121,16 +121,7 @@ def mul_num(x, y):
     else:
         temp = str(round(x, y)) + low[i]
 
-    print(temp)
     return temp
-
-
-def help():  # this is not needed
-    print("This is a help function.")  # this is not needed
-
-
-def lisence():  # this is not needed
-    print("This is the lisence.")  # this is not needed
 
 
 def round_Num(
