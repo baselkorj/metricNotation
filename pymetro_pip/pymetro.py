@@ -106,7 +106,6 @@ def div_num(x, y):
     else:
         temp = str(round(x, y)) + hi[i]
 
-    print(temp)
     return temp
 
 

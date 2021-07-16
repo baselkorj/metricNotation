@@ -1,1 +1,15 @@
-__version__ = "0.1"
+from pymetro import atto
+from pymetro import femto
+from pymetro import pico
+from pymetro import nano
+from pymetro import micro
+from pymetro import milli
+from pymetro import kiloo
+from pymetro import mega
+from pymetro import giga
+from pymetro import tera
+from pymetro import peta
+from pymetro import exa
+from pymetro import zetta
+from pymetro import yotta
+from pymetro import auto
