@@ -104,11 +104,10 @@ def yotta(x, y=0):
 def auto(x, y=0):
     """
 	Automatically convert a base decimal to a standard value. Provide decimal (x) and the number of decimal points to round to (y), empty if not required.
-	
-	>> pymetro.auto(2145.235, 3)
-	2.145k
-	>> pymetro.auto(0.032523, 2)
-	32.52m
+        >> pymetro.auto(2145.235, 3)
+        2.145k
+        >> pymetro.auto(0.032523, 2)
+        32.52m
     """
     x = float(x)
     if x > 1000:
@@ -145,9 +144,7 @@ def mul_num(x, y):
     return temp
 
 
-def round_Num(
-    x, y
-):  # this function to see if the user wants to round the results or not
+def round_Num(x, y):
     if y == 0:
         th = str(x)
     else:
