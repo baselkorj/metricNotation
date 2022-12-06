@@ -46,7 +46,7 @@ Similarly, the auto function is also capable of accepting a specific number of i
 |*Mega*|*M*|Mega()|
 |*Giga*|*G*|giga()|
 |*Tera*|*T*|tera()|
-|*Peta*|*peta*|peta()|
+|*Peta*|*P*|peta()|
 |*Exa*|*E*|exa()|
 |*Zetta*|*Z*|zetta()|
 |*Yotta*|*Y*|yotta()|
